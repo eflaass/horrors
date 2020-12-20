@@ -1,14 +1,15 @@
 import logo from './logo.svg';
+import Title from './components/Title';
 import './App.css';
+
+const text = 'fuck you'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World
-        </p>
+        <Title text={text} />
         <a
           className="App-link"
           href="https://reactjs.org"
